@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Pixel Drawer</title>
+</head>
+<body>
+    <div>
+        <div id="guide"></div>
+        <canvas width="720" height="720" id="canvas"></canvas>
+      </div>
+      <div>
+        <label for="colorInput">Set Color: </label>
+        <input type="color" id="colorInput">
+      </div>
+      <div>
+        <label for="toggleGuide">Show Grid: </label>
+        <input type="checkbox" id="toggleGuide" checked>
+      </div>
+      <div>
+        <label for="gridXInput">Grid Count (X):</label>
+        <input type="number" id="gridXInput" value="16">
+      </div>
+      <div>
+        <label for="gridYInput">Grid Count (Y):</label>
+        <input type="number" id="gridYInput" value="16">
+      </div>
+      <div>
+        <button type="button" id="resizeButton">Resize Grid</button>
+        <button type="button" id="clearButton">Clear</button>
+        <button type="button" id="saveButton">Save as JPEG</button>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
